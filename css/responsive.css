@@ -1,0 +1,295 @@
+@media screen and (max-width: 1200px) {
+  /*SECTION ONE*/
+  .sectionOne{
+  height: 75svh;
+ }
+ 
+  .bannerText {
+   width: 34%;
+  }
+  .sectionOne .logo{ 
+    font-weight: 700;
+    margin-left: 25px;
+    
+  }
+  .sectionOne .navigation{
+    margin-right: 20px;
+    
+  }
+  
+  .sectionOne .signUp-Btn{
+    padding:10px 15px ;
+    
+  }
+  .sectionOne .bannerText{
+    width: 50%;
+  }
+  /*SECTION TWO*/
+  .sectionTwo{
+    height: 70svh;
+  }
+  .sectionTwo h2{
+    font-size: 28px;
+  }
+  .sectionTwo .content{
+    justify-content: space-around;
+  }
+  .sectionTwo .variety{
+    margin: 0;
+  }
+  .sectionTwo .principle{
+    height: 90%;
+    width: 30%;
+  }
+  .principle h3{
+    font-size: 20px;   
+  }
+  .principle p{
+    font-size: 15px;   
+  }
+ /*SECTION THREE*/
+ .sectionThree .text{
+  width:90%;
+}
+ /*SECTION FOUR*/
+ .sectionFour h2{
+  font-size: 28px;
+}
+.sectionFour p{
+  font-size: 16px;
+  width: 90%;
+}
+.sectionFour .menu{
+  justify-content: space-around;
+}
+.sectionFour .item{
+  width: 30%;
+}
+.sectionFour .weeklyClassic{
+  margin: 0 ;
+}
+.sectionFour .menu-btn{
+  padding: 15px 25px;
+  font-size: 12px;
+}
+.sectionFour .menu{
+  height: 50%;
+}
+/*SECTION FIVE*/ 
+.sectionFive .title > img{
+  height: 36px; 
+  width: 36px;
+}
+.sectionFive .title > h2{
+  font-size: 30px;
+}
+.sectionFive .users{
+  justify-content: space-evenly;
+}
+.sectionFive .user{
+  width: 25%;
+}
+.sectionFive .rating {
+  gap: 5px;
+}
+.sectionFive .rating > p {
+  font-size: 26px;
+}
+/*SECTION SIX*/
+.sectionSix .form{
+  width: 90%;
+}
+.sectionSix .form >h2 {
+  font-weight: 600;
+  margin-top: 10px;
+}
+.sectionSix .form >input {
+  width:50%;
+}
+.sectionSix .disclaimer {
+  width: 70%;
+}
+/*SECTION SEVEN*/
+.sectionSeven .webinfo{
+  width: 100%;
+  gap:10px;
+}
+.sectionSeven .socials{
+width:100%;
+}
+
+
+}
+@media screen and (max-width:768px){
+  /*SECTION ONE*/
+  .navbar{
+    justify-content: center;
+ }
+ .sectionOne .navigation{
+  display: none;
+}
+
+  /*SECTION TWO*/
+  .sectionTwo{
+    height: 160svh;
+  }
+  .sectionTwo .title{
+    height: fit-content;
+    margin-top: 15px;
+  }
+  .sectionTwo .content{
+    height: 95%;
+    flex-direction: column;
+  }
+  .sectionTwo .principle{
+    height: 30%;
+    width: 50%;
+  }
+  .principle .image{
+    height: 60%;
+  }
+  .principle .description{
+    height: 40%; 
+  }
+  .sectionTwo .variety{
+    margin: 0;
+  }
+  .sectionTwo .deliciousness{
+    height: 40%;
+  }
+ 
+  /*SECTION THREE*/
+  .sectionThree{
+    height: 150svh;
+    flex-direction:column-reverse;
+  }
+  .sectionThree .image, 
+  .sectionThree .content{
+    width: 100%;
+    height: 50%;
+  }
+  /*SECTION FOUR*/
+  .sectionFour{
+    height: 150svh;
+    justify-content: space-evenly;
+  }
+  .sectionFour h2, .sectionFour p{
+   text-align: center;
+  }
+  .sectionFour .menu{
+    height: 70%;
+    flex-direction: column;
+  }
+  .sectionFour .item{
+    width: 50%;
+    height: 30%;
+  }
+  .sectionFour .menu-btn{
+   margin-bottom: 30px;
+  }
+  /*SECTION FIVE*/
+.sectionFive{
+  height: 100svh;
+}
+.sectionFive .users{
+  height: 75%;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+.sectionFive .user{
+  max-height: 50%;
+  min-width: 43%;
+  float: left;
+  background-position: top;
+}
+.sectionFive .rating{
+  height:20%;
+}
+/*SECTION SEVEN*/
+.sectionSeven {
+  height: 60svh;
+}
+.sectionSeven .h2{
+  height: fit-content;
+  margin-top: 15px;
+}
+.sectionSeven .webinfo{
+  height: 55%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sectionSeven .internal{ 
+  width: 100%;
+}
+.sectionSeven .external{
+  width: 100%;
+}
+}
+@media screen and (max-width:674px){
+/*SECTION ONE*/
+
+.sectionOne{
+  height:60svh;
+}
+.sectionOne .bannerText{
+  
+  margin-top: 20px;
+}
+.sectionOne h1{
+  font-size: 25px;
+  line-height: 25px;
+
+}
+.sectionOne p{
+  font-size: 15px;
+  line-height: 18px;
+}
+.sectionOne .signUp-Btn{
+  margin-bottom: 35px; 
+}
+/*SECTION TWO*/
+.sectionTwo {
+  height: 165svh;
+}
+.sectionTwo h2{
+  font-size: 24px;
+}
+.principle .image{
+  height: 50%;
+}
+.sectionTwo .variety{
+  margin-top:30px;
+}
+ /*SECTION THREE*/
+ .sectionThree{
+  height:100svh;
+}
+.sectionThree .image{
+  width:100%; 
+}
+ /*SECTION FOUR*/
+ .sectionFour{
+  height: 160svh;
+}
+/*SECTION FIVE*/ 
+.sectionFive{
+  height: 100svh;
+}
+.sectionFive .rating > p {
+  font-size: 20px;
+}
+/*SECTION SIX*/
+.sectionSix{
+  height:60svh;
+}
+.sectionSix .form{
+  height: 40%;
+  width: 95%;
+ 
+}
+
+
+
+
+}
